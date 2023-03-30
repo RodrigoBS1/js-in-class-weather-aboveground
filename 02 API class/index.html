@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Web APIs  - Weather</title>
+</head>
+<body>
+    <head>
+        <h1>Weather Aboveground</h1>
+    </head>
+    <main>
+        <form>
+            <label for="input-city">City Name:</label>
+            <input type="text" name="inputCity" id="input-city">
+            <input type="submit" value="Get Weater">
+            
+        </form>
+        <section id="current-weather">
+            <h3 id="city-name"></h3>
+            <div>
+                <h5>Current Temperature</h5>
+                <p id="current-temp-fah"></p>
+                <p id="current-temp-cel"></p>
+
+                <h5>Sunrise Time</h5>
+                <p id="sunrise"></p>
+
+
+                <h5>Sunset Time</h5>
+                <p id="sunset"></p>
+
+            </div>
+        </section>
+    </main> 
+    <script src="script.js" type="module"></script>
+</body>
+</html>
